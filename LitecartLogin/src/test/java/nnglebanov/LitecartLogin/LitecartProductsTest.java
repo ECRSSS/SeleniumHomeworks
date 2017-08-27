@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +22,9 @@ public class LitecartProductsTest {
     @Before
     public void start()
     {
-        driver=new ChromeDriver();
+        driver=new FirefoxDriver(
+
+        );
     }
 
     @Test
