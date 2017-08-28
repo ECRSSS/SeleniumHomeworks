@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import javax.swing.*;
 import java.util.ArrayList;
@@ -17,14 +19,16 @@ import java.util.Comparator;
  */
 public class LitecartZonesTest {
     private WebDriver driver;
+    private WebDriverWait wait;
 
     @Before
     public void start()
     {
         driver=new ChromeDriver();
+        wait = new WebDriverWait(driver, 1);
     }
     @Test
-    public void test() throws InterruptedException
+    public void test()
     {
         driver.get("http://localhost/litecart/admin");
         WebElement name = driver.findElement(By.cssSelector("input[name=username]"));
@@ -43,7 +47,7 @@ public class LitecartZonesTest {
         for(int i=1;i<=numOfZones;i++)
         {
             driver.findElement(By.cssSelector("tr.row:nth-child("+(i+1)+")")).findElement(By.cssSelector("td:nth-child(3) a")).click();
-            Thread.sleep(1000);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("table#table-zones.dataTable")));
             WebElement zoneTable=driver.findElement(By.cssSelector("table#table-zones.dataTable"));
             ArrayList<WebElement> zonesElements=(ArrayList<WebElement>) zoneTable.findElements(By.cssSelector("tr:not(.header)"));
             zonesElements.remove(zonesElements.size()-1);
