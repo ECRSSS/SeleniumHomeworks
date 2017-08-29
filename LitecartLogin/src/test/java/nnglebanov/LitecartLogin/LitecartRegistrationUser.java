@@ -24,7 +24,7 @@ public class LitecartRegistrationUser {
         wait=new WebDriverWait(driver,1);
     }
     @Test
-    public void test()
+    public void test() throws InterruptedException
     {
         driver.get("http://localhost/litecart/en/");
         WebElement createAccountLink=driver.findElement(By.cssSelector("td.account li:nth-child(3)"));
@@ -54,6 +54,9 @@ public class LitecartRegistrationUser {
         wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.cssSelector("select[name='zone_code']"))));
         selectZone.selectByIndex(rnd.nextInt(50));
         driver.findElement(By.cssSelector("button[name='create_account']")).click();
+        //ожидание видимости элемента, доступного только залогиненному пользователю
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div#box-account.box")));
+
         driver.findElement(By.cssSelector("td.account li:last-child a")).click();
         driver.findElement(By.cssSelector("td.account li:last-child a")).click();
         driver.findElement(By.cssSelector("input[name='email']")).sendKeys(email);

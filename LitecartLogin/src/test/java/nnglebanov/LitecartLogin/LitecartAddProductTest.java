@@ -46,7 +46,7 @@ public class LitecartAddProductTest {
 
         driver.findElement(By.cssSelector("input[name='date_valid_from']")).click();
 
-        javascriptExecutor.executeScript();
+        javascriptExecutor.executeScript("$('input[name=\"date_valid_from\"]').datepicker('setDate','16/05/1991');");
 
 
 
