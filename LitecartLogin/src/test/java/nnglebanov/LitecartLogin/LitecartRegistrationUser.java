@@ -55,6 +55,13 @@ public class LitecartRegistrationUser {
         selectZone.selectByIndex(rnd.nextInt(50));
         driver.findElement(By.cssSelector("button[name='create_account']")).click();
         driver.findElement(By.cssSelector("td.account li:last-child a")).click();
+        driver.findElement(By.cssSelector("td.account li:last-child a")).click();
+        driver.findElement(By.cssSelector("input[name='email']")).sendKeys(email);
+        driver.findElement(By.cssSelector("input[name='password']")).sendKeys("test");
+        driver.findElement(By.cssSelector("button[name='login']")).click();
+        driver.findElement(By.cssSelector("td.account li:last-child a")).click();
+
+
     }
     @After
     public void stop()
