@@ -31,7 +31,7 @@
       <file leaf-file-name="LitecartRegistrationUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartRegistrationUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="799">
               <caret line="56" column="83" lean-forward="false" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,14 +40,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LitecartAddProductTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LitecartAddProductTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartAddProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="17">
+              <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddToCartTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/AddToCartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#5220#5221#0" expanded="true" />
-                <element signature="e#5249#5250#0" expanded="true" />
+                <element signature="e#2575#2576#0" expanded="true" />
+                <element signature="e#2604#2605#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -419,6 +429,7 @@
         <option value="$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartZonesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartRegistrationUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartAddProductTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/AddToCartTest.java" />
       </list>
     </option>
   </component>
@@ -426,9 +437,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1284" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -445,6 +457,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -473,10 +487,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -535,9 +545,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,33 +553,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.LitecartAddProductTest">
-    <configuration default="false" name="LitecartCountriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="nnglebanov.LitecartLogin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LitecartLogin_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="nnglebanov.LitecartLogin" />
-      <option name="MAIN_CLASS_NAME" value="nnglebanov.LitecartLogin.LitecartCountriesTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AddToCartTest">
     <configuration default="false" name="LitecartZonesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -662,6 +644,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="nnglebanov.LitecartLogin" />
       <option name="MAIN_CLASS_NAME" value="nnglebanov.LitecartLogin.LitecartAddProductTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AddToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nnglebanov.LitecartLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="LitecartLogin_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="nnglebanov.LitecartLogin" />
+      <option name="MAIN_CLASS_NAME" value="nnglebanov.LitecartLogin.AddToCartTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -890,19 +898,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LitecartCountriesTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LitecartZonesTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DuckTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LitecartRegistrationUser" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LitecartAddProductTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LitecartZonesTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DuckTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LitecartRegistrationUser" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LitecartAddProductTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AddToCartTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LitecartAddProductTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LitecartRegistrationUser" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LitecartZonesTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DuckTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LitecartCountriesTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AddToCartTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LitecartAddProductTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LitecartRegistrationUser" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LitecartZonesTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DuckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -923,39 +931,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 40m 14s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 16h 19m 21s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 40m 31s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 16h 22m 52s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 45m 01s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 16h 23m 43s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 45m 46s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 16h 24m 28s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 46m 33s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 17h 01m 07s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 52m 49s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 17h 02m 05s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 53m 10s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 17h 03m 20s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 53m 39s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 17h 05m 15s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 56m 56s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 17h 06m 19s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartAddProductTest - 2017.08.30 at 14h 59m 53s.xml">
-      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
+    <history-entry file="AddToCartTest - 2017.09.01 at 17h 06m 39s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1284" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -968,19 +976,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31944445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31794873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04493464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08850227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7111111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.083760686" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1004,7 +1012,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1013,6 +1021,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartRegistrationUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="83" lean-forward="false" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartAddProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartRegistrationUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1037,10 +1063,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#5220#5221#0" expanded="true" />
-            <element signature="e#5249#5250#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +1240,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartRegistrationUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="799">
           <caret line="56" column="83" lean-forward="false" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1231,11 +1250,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/LitecartAddProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="17">
+          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nnglebanov/LitecartLogin/AddToCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#5220#5221#0" expanded="true" />
-            <element signature="e#5249#5250#0" expanded="true" />
+            <element signature="e#2575#2576#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
           </folding>
         </state>
       </provider>
